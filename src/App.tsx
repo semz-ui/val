@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import song from "../public/yes.mp3";
 import no from "../public/no.mp3";
 
