@@ -5,7 +5,6 @@ import no from "../public/no.mp3";
 export default function App() {
   const [noCount, setNoCount] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [currentTime, setCurrentTime] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
   const yesButtonSize = noCount * 20 + 16;
 
